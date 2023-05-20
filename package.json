@@ -1,0 +1,13 @@
+{
+  "name": "singularity",
+  "dependencies": {
+    "fast-xml-parser": "^4.2.2",
+    "jest": "^29.5.0",
+    "lodash": "^4.17.21",
+    "react-jsx-parser": "^1.29.0",
+    "yaml": "^2.2.2"
+  },
+  "scripts": {
+    "jest": "jest --watch"
+  }
+}

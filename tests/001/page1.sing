@@ -1,0 +1,26 @@
+name: Product Details
+url: /products/:product
+data:
+  product: Product
+actions:
+  firstAction:
+    - type: openLink
+      url: https://example.com
+  secondAction:
+    - type: create
+      model: User
+      data:
+        name: hello {inputs.input6} world
+        email: {inputs.input7}
+        phone: {inputs.phoneNumber}
+        product: {pageParams.product}
+    - type: navigateBack
+
+<Page template="asdfasdf">
+  <Text style={{fontSize: 12}}>
+    Hello World
+  </Text>
+  <Button onClick={firstAction}>
+    Click Me
+  </Button>
+</Page>
